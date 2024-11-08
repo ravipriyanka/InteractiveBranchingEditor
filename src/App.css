@@ -1,0 +1,68 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(190, 190, 124);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+input[type="color"] {
+  width: 50px;
+  height: 30px;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.shape-output {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape {
+  transition: transform 0.3s ease;
+}
+.shape-output {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape.cube {
+  transition: transform 0.3s ease;
+}
+
+.shape.pyramid {
+  transition: transform 0.3s ease;
+}
